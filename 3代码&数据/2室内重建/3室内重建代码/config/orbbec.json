@@ -1,0 +1,14 @@
+{
+    "name": "Orbbec Astra Pro Capture RGBD",
+    "path_dataset": "dataset/201222_Orbbec_200/",
+    "path_intrinsic": "config/camera_astrapro.json",
+    "max_depth": 3.0,
+    "voxel_size": 0.05,
+    "max_depth_diff": 0.07,
+    "preference_loop_closure_odometry": 0.1,
+    "preference_loop_closure_registration": 5.0,
+    "tsdf_cubic_size": 3.0,
+    "icp_method": "color",
+    "global_registration": "ransac",
+    "python_multi_threading": true
+}
